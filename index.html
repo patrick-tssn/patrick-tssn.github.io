@@ -1,1 +1,144 @@
-blank
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link href="${require('./index.css')}" rel="stylesheet">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+    <title>Patrick'blog</title>
+</head>
+
+<body>
+    <div id="container">
+        <div class="section header grid-container grid-parent">
+            <div class="split picture-container grid-40">
+                <a href="${require('./assets/images/p.jpg')}">
+                    <picture class="picture">
+                        <source type="image/webp" srcset="${require('./assets/images/amphineko@1x.webp')}" />
+                        <img src="${require('./assets/images/p.jpg')}" alt="picture" />
+                    </picture>
+                </a>
+            </div>
+
+            <div class="split grid-60">
+                <div class="names">
+                    <h1 class="name">
+                        <span class="no-wrap">
+                            派导
+                        </span>
+                    </h1>
+                </div>
+
+                <br />
+
+                <div class="label-group">
+                    <span class="header">education</span>
+                    <span class="label">
+                        <i aria-hidden="true" class="fas fa-university"></i>
+                        Master student at PKU
+                    </span>
+                </div>
+
+                <div class="label-group">
+                    <span class="header">lab</span>
+                    <span class="label">
+                        <i aria-hidden="true" class="fas fa-box"></i>
+                        ICST
+                    </span>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="section intro">
+            <h2><i aria-hidden="true" class="fa fa-chevron-right"></i>about me</h2>
+
+            <div class="block grid-container grid-parent">
+                <div class="split grid-50 mobile-grid-100">
+                    <p>
+                        I'm a piece of shit.
+                    </p>
+                    <p>
+                        我想当导演
+                    </p>
+
+                </div>
+
+                <div class="split grid-50 mobile-grid-100">
+                    <figure class="identities">
+                        <figcaption><i class="fas fa-external-link-alt"></i>open-source</figcaption>
+                        <ul>
+                            <li>
+                                <a href="https://github.com/patrick-tssn/">
+                                    <i aria-hidden="true" class="fab fa-github"></i>
+                                    <span class="label">GitHub</span>
+                                    <span class="fake-link">@patrick-tssn</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </figure>
+
+                    <figure class="identities">
+                        <figcaption><i class="fas fa-external-link-alt"></i>social network</figcaption>
+                        <ul>
+                            <li class="shutdown">
+                                <a href="#">
+                                    <i aria-hidden="true" class="fab fa-weibo"></i>
+                                    <span class="label">weibo.com</span>
+                                    <span class="fake-link">[fake link]</span>
+                                </a>
+                            </li>
+
+                            <li class="shutdown">
+                                <a href="#">
+                                    <i aria-hidden="true" class="fab fa-steam"></i>
+                                    <span class="label">Steam</span>
+                                    <span class="fake-link">Patrick(forgotten link)</span>
+                                </a>
+                            </li>
+
+                        </ul>
+                    </figure>
+                </div>
+            </div>
+        </div>
+
+        <div class="section intro">
+            <h2><i aria-hidden="true" class="fa fa-chevron-right"></i>my publications!</h2>
+
+            <div class="block grid-container grid-parent">
+                <div class="split grid-50 mobile-grid-100">
+                    <p>
+                        None
+                    </p>
+
+                </div>
+
+                <div class="split grid-50 mobile-grid-100">
+                    <figure class="identities">
+                        <figcaption><i class="fas fa-external-link-alt"></i>papers</figcaption>
+                        <ul>
+
+                        </ul>
+                    </figure>
+
+                    <div class="label-group">
+                        <span class="header alt"><i aria-hidden="true" class="fas fa-tag"></i>blogs</span>
+
+                        <a href="http://www.w3school.com.cn">知乎主页</a>
+
+                    </div>
+ 
+                </div>
+            </div>
+        </div>
+
+        <div class="section footer">
+            <a class="hosting" href="https://github.com/patrick-tssn">
+                <i aria-hidden="true" class="fas fa-code-branch"></i> Waste your time on my GitHub profile</a>
+        </div>
+
+    </div>
+</body>
+
+</html>
