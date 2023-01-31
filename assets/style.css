@@ -34,7 +34,7 @@ a:hover {
 }
 
 .paper {
-    border-left: 0px solid #ddd;
+    border-left: 1px solid #ddd;
 }
 
 .fixed-posi .fa {
@@ -51,7 +51,7 @@ a:hover {
 }
 
 .profilepic {
-    width: 155px;
+    width: 170px;
     /* border-radius: 50%; */
     /* filter: grayscale(100%); */
 }
