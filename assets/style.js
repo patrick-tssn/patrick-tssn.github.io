@@ -38,6 +38,8 @@ const headerdecoration = "none";
 const namecolor = highlightcolor;
 const namefontsize = "23pt";
 const namepos = "center";
+const emailpos = "center";
+const emailfontsize = "12pt";
 
 
 // Publication properties
@@ -99,6 +101,9 @@ $(".header").css("text-decoration", headerdecoration);
 $(".name").css("color", namecolor);
 $(".name").css("font-size", namefontsize);
 $(".name").css("text-align", namepos);
+
+$(".email").css("font-size", emailfontsize);
+$(".email").css("text-align", emailpos);
 
 $(".papertitle").css("color", ptitlecolor);
 $(".papertitle").css("font-size", ptitlefontsize);
