@@ -39,6 +39,7 @@ a:hover {
 
 .fixed-posi .fa {
     width: 1.5em;
+    /* margin-left: 50%; */
 }
 
 /* .menulink:hover {
