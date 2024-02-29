@@ -61,6 +61,12 @@ a:hover {
     /* filter: grayscale(100%); */
 }
 
+.overviewpic {
+    width: 180px;
+    /* border-radius: 50%; */
+    /* filter: grayscale(100%); */
+}
+
 @media (min-width: 768px) {
     .fixed-posi {
         /* width: 50%;
@@ -81,6 +87,14 @@ a:hover {
 
     .profilepic {
         width: 90px;
+        /* border-radius: 50%; */
+        padding-top: 0px !important;
+        padding-bottom: 0px !important;
+        /* filter: grayscale(100%); */
+    }
+
+    .overviewpic {
+        width: 120px;
         /* border-radius: 50%; */
         padding-top: 0px !important;
         padding-bottom: 0px !important;
